@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(1255, 255, 176);
     font-size: 30px;
     color: rgb(255, 255, 255);
     text-align: left;
@@ -7,32 +7,46 @@ body {
 }
 
 h1 {
-    color: white;
+    color: rgb(165,137,193);
     text-align: center;
     border: 5px white;
 }
 h2 {
-    background-color: #7b8ee7;
     font-size: 20x;
     color: rgb(255, 255, 255);
     text-align: left;
     padding: 20px;
+    font: italic
 }
 h3 {
-    background-color: black;
     font-size: 20x;
     color: rgb(255, 255, 255);
     text-align: left;
 }
 h4 {
-    background-color: #7b8ee7;
-    font-size: 20x;
+    font-size: 30x;
     color: rgb(255, 255, 255);
     text-align: left;
 }
 #imagem-principal {
     padding: 10px;
-    margin-left: 400px;
-    width: 30%;
+    margin: 0;
+    width: 10%;
     border: 5px groove paleturquoise;
+
+}
+ul {
+    display: inline-block;
+    vertical-align: left;
+    width: 25%;
+    margin-left: 15;
+}
+.texto-um {
+    background-color: rgb(72, 181, 163);
+    padding: 20px;
+    font-style: italic
+
+    }
+.texto-inicial{
+    background-color: rgb(117, 137, 191);
 }
